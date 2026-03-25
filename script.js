@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-alert("oi");
-=======
 alert("olá Usuário");
->>>>>>> mensagem
 let pessoas = Number(prompt("insira a quantidade de pessoas em marte:"));
 const consumoDiario = 15; // litros por pessoa.
 
