@@ -1,11 +1,9 @@
-alert("olá Usuário");
-let pessoas = Number(prompt("insira a quantidade de pessoas em marte:"));
-const consumoDiario = 15; // litros por pessoa.
+let numUm;
+let numDois;
+let result;
 
-//consumo total eh baseado na quantidade de pessoas multiplicado pelo consumo diário por pessoa.
-let consumoTotalBase = pessoas * consumoDiário;
-let diasRestantes = oxigenio / consumoTotalBase;
+numUm = Number(prompt("Escreva o primeiro número:"));
+numDois = Number(prompt("Escreva o segundo número:"));
+result = numUm + numDois;
 
-alert(`relatorio de marte: restam ${diasRestantes.toFixed (0)} dias de oxigenio!!`);
-
-alert("oie");
+alert(`O resultado da soma sera ${result.toFixed(2)}`);
