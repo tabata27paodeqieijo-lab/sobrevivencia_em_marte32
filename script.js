@@ -1,15 +1,11 @@
-<<<<<<< HEAD
-alert("oi");
-=======
-alert("olá Usuário");
->>>>>>> mensagem
-let pessoas = Number(prompt("insira a quantidade de pessoas em marte:"));
-const consumoDiario = 15; // litros por pessoa.
+let numUm;
+let numDois;
+let result;
 
-//consumo total eh baseado na quantidade de pessoas multiplicado pelo consumo diário por pessoa.
-let consumoTotalBase = pessoas * consumoDiário;
-let diasRestantes = oxigenio / consumoTotalBase;
+numUm  = Number(prompt("insira o primeiro numero da multiplicacao"));
+numDois = Number(prompt("insira o segundo numero da multiplicacao"));
+result = numUm * numDois;
 
-alert(`relatorio de marte: restam ${diasRestantes.toFixed (0)} dias de oxigenio!!`);
+alert(`o valor da multiplicacao ${(numUm * numDois).toFixed(2)}`); 
 
-alert("oie");
+ 
