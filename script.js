@@ -12,3 +12,9 @@ numDois = Number(prompt("Coloque o segundo número"));
 result = numUm / numDois;
 
 alert(`O resultado da divisão será igual a ${result.toFixed(2)}`);
+
+numUm = Number(prompt("insira o primeiro numero da subtracao"));
+numDois = Number(prompt("insira o segundo numero da subtracao"));
+result = numUm - numDois;
+
+alert(`o valor da subtracao ${(numUm - numDois).toFixed(2)}`);
